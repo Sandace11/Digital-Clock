@@ -17,11 +17,6 @@ function showTime() {
    min = (min < 10 ) ? min = '0' + min : min;
    sec = (sec < 10 ) ? sec = '0' + sec : sec;
 
-    // let time = hour + ':' + min + ':' + sec + ' ' + session;
-    // let myClockDisplay = document.getElementById('clockDisplay');
-    // // myClockDisplay.innerText = time;
-    // myClockDisplay.textContent = time;
-
     document.getElementById('hour').textContent = hour;
     document.getElementById('min').textContent = min;
     document.getElementById('sec').textContent = sec;
